@@ -13,7 +13,7 @@ const App = () => {
 
   const handleGameResult = (result) => {
     if (result === 'win') {
-      setBalance(balance + 100);
+      setBalance(balance + 110);
     } else if (result === 'lose') {
       setBalance(balance - 100);
     }
